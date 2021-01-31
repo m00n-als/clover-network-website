@@ -1,3 +1,8 @@
+import twitterIcon from "./public/twitter.svg";
+import telegramIcon from "./public/telegram.svg";
+import discordIcon from "./public/discordd.svg";
+import mediumIcon from "./public/medium.svg";
+
 const HEADER_MENU = [
   {
     link: 'https://github.com/clover-network/',
@@ -17,23 +22,29 @@ const HEADER_MENU = [
   },
 ];
 
+const SOCIAL_ICONS = {
+  twitter: 'twitter',
+  telegram: 'telegram',
+  discord: 'discord',
+  medium: 'medium',
+};
 const SOCIALS = [
   {
     link: 'https://twitter.com/clover_finance/',
-    icon: 'twitter',
+    icon: SOCIAL_ICONS.twitter,
   },
   {
     link: 'https://t.me/clover_en/',
-    icon: 'telegram',
+    icon: SOCIAL_ICONS.telegram,
   },
   {
     link: 'https://discord.gg/z2egJBsBWx/',
-    icon: 'discord',
+    icon: SOCIAL_ICONS.discord,
   },
   {
     link: 'https://medium.com/projectclover/',
-    icon: 'medium',
+    icon: SOCIAL_ICONS.medium,
   },
 ];
 
-export { HEADER_MENU, SOCIALS };
+export { HEADER_MENU, SOCIAL_ICONS, SOCIALS };

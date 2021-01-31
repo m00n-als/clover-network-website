@@ -5,15 +5,14 @@ import twitterIcon from '../public/twitter.svg';
 import telegramIcon from '../public/telegram.svg';
 import discordIcon from '../public/discordd.svg';
 import mediumIcon from '../public/medium.svg';
+import { SOCIAL_ICONS } from '../constants';
 
 export const iconsMap = {
-  twitter: twitterIcon,
-  telegram: telegramIcon,
-  discord: discordIcon,
-  medium: mediumIcon,
+  [`${SOCIAL_ICONS.twitter}`]: twitterIcon,
+  [`${SOCIAL_ICONS.telegram}`]: telegramIcon,
+  [`${SOCIAL_ICONS.discord}`]: discordIcon,
+  [`${SOCIAL_ICONS.medium}`]: mediumIcon,
 };
-
-export type IconNamesType = keyof typeof iconsMap;
 
 export const Social = ({
   className,
@@ -22,7 +21,7 @@ export const Social = ({
   className?: string;
   items?: {
     link: string;
-    icon: IconNamesType;
+    icon: keyof typeof iconsMap;
   }[];
 }) => {
   const data = useMemo(() => (

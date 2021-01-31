@@ -1,23 +1,23 @@
 import React, { useMemo } from 'react';
 import cn from 'classnames';
 import Social from './Social';
-import styles from '../styles/HeaderNav.module.scss';
+import styles from '../styles/Navigation.module.scss';
 import { SOCIALS } from '../constants';
 
-export const HeaderNav = ({
+export const Navigation = ({
   className,
-  menu = [],
+  items = [],
   active = false,
 }: {
   className?: string;
-  menu?: {
+  items?: {
     link: string;
     label: string;
   }[];
   active?: boolean;
 }) => {
-  const items = useMemo(() => (
-    menu?.map(({ link, label}) => (
+  const data = useMemo(() => (
+    items?.map(({ link, label}) => (
       <li key={link} className={styles.item}>
         <a
           className={styles.link}
@@ -28,7 +28,7 @@ export const HeaderNav = ({
         </a>
       </li>
     ))
-  ), [menu]);
+  ), [items]);
   return (
     <nav
       className={cn(styles.nav, className, {
@@ -36,8 +36,8 @@ export const HeaderNav = ({
       })}
     >
       <div className={styles.container}>
-        {!!items.length && (
-          <ul className={styles.list}>{items}</ul>
+        {!!data.length && (
+          <ul className={styles.list}>{data}</ul>
         )}
         <Social
           className={styles.social}
@@ -51,4 +51,4 @@ export const HeaderNav = ({
   );
 };
 
-export default HeaderNav;
+export default Navigation;

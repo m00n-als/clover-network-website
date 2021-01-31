@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import HeaderNav from './HeaderNav';
+import Navigation from './Navigation';
 import MenuButton from './MenuButton';
 import styles from '../styles/Header.module.scss';
 import Logo from '../public/logo.svg';
@@ -17,8 +17,8 @@ const Header = () => {
             clover
           </div>
         </div>
-        <HeaderNav
-          menu={HEADER_MENU}
+        <Navigation
+          items={HEADER_MENU}
           active={active}
         />
         <MenuButton

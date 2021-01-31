@@ -42,6 +42,7 @@
 @media (min-width: $media-lg) {
   .header {
     position: relative;
+    border-bottom: none;
     z-index: auto;
   }
 

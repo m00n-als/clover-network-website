@@ -11,6 +11,7 @@ const Home = () => {
       </Head>
       <Header />
       <main className={styles.main}>
+
         <h1 className={styles.title}>
           Cross-chain DeFi Interoperability
         </h1>
