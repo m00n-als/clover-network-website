@@ -1,0 +1,34 @@
+import React, { useState, useCallback } from 'react';
+import HeaderNav from './HeaderNav';
+import MenuButton from './MenuButton';
+import styles from '../styles/Header.module.scss';
+import Logo from '../public/logo.svg';
+import { HEADER_MENU } from '../constants';
+
+const Header = () => {
+  const [active, setActive] = useState(false);
+  const toggleActive = useCallback(() => setActive(!active), [active]);
+  return (
+    <header className={styles.header}>
+      <div className={styles.container}>
+        <div className={styles.logo}>
+          <Logo className={styles.logoImage} />
+          <div className={styles.logoText}>
+            clover
+          </div>
+        </div>
+        <HeaderNav
+          menu={HEADER_MENU}
+          active={active}
+        />
+        <MenuButton
+          className={styles.button}
+          active={active}
+          onClick={toggleActive}
+        />
+      </div>
+    </header>
+  );
+};
+
+export default Header;

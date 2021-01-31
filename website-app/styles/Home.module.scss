@@ -1,0 +1,40 @@
+@import './variables';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+
+  img {
+    border: 0;
+    vertical-align: middle;
+  }
+
+  :focus {
+    outline: none;
+  }
+
+  *, *::after, *::before {
+    box-sizing: border-box;
+  }
+
+  @media (min-width: $media-lg) {
+    font-size: 16px;
+  }
+}
+
+.main {
+  padding: 72px 0 0 0;
+  flex: 1 0 auto;
+  max-width: $container-width;
+  width: 100%;
+}
+
+@media (min-width: $media-lg) {
+  .main {
+    padding-top: 0;
+  }
+}

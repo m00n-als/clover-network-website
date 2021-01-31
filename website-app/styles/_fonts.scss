@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd-Black'),
+  url('/fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/CircularStd-Black.otf') format('opentype'),
+  url('/fonts/CircularStd-Black.ttf') format('truetype'),
+  url('/fonts/CircularStd-Black.woff') format('woff'),
+  url('/fonts/CircularStd-Black.svg') format('svg');
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd-Bold'),
+  url('/fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/CircularStd-Bold.otf') format('opentype'),
+  url('/fonts/CircularStd-Bold.ttf') format('truetype'),
+  url('/fonts/CircularStd-Bold.woff') format('woff'),
+  url('/fonts/CircularStd-Bold.svg') format('svg');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd-Medium'),
+  url('/fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/CircularStd-Medium.otf') format('opentype'),
+  url('/fonts/CircularStd-Medium.ttf') format('truetype'),
+  url('/fonts/CircularStd-Medium.woff') format('woff'),
+  url('/fonts/CircularStd-Medium.svg') format('svg');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd-Book'),
+  url('/fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/CircularStd-Book.ttf') format('truetype'),
+  url('/fonts/CircularStd-Book.woff') format('woff'),
+  url('/fonts/CircularStd-Book.svg') format('svg');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SpaceMono';
+  src: local('SpaceMono-Bold'),
+  url('/fonts/SpaceMono-Bold.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/SpaceMono-Bold.otf') format('opentype'),
+  url('/fonts/SpaceMono-Bold.ttf') format('truetype'),
+  url('/fonts/SpaceMono-Bold.woff') format('woff'),
+  url('/fonts/SpaceMono-Bold.svg') format('svg');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SpaceMono';
+  src: local('SpaceMono-Regular'),
+  url('/fonts/SpaceMono-Mediun.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/SpaceMono-Mediun.otf') format('opentype'),
+  url('/fonts/SpaceMono-Mediun.ttf') format('truetype'),
+  url('/fonts/SpaceMono-Mediun.woff') format('woff'),
+  url('/fonts/SpaceMono-Mediun.svg') format('svg');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
