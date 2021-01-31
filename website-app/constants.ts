@@ -1,8 +1,3 @@
-import twitterIcon from "./public/twitter.svg";
-import telegramIcon from "./public/telegram.svg";
-import discordIcon from "./public/discordd.svg";
-import mediumIcon from "./public/medium.svg";
-
 const HEADER_MENU = [
   {
     link: 'https://github.com/clover-network/',

@@ -9,7 +9,7 @@ const Header = () => {
   const [active, setActive] = useState(false);
   const toggleActive = useCallback(() => setActive(!active), [active]);
   return (
-    <header className={styles.header}>
+    <header className={styles.wrapper}>
       <div className={styles.container}>
         <div className={styles.logo}>
           <Logo className={styles.logoImage} />
