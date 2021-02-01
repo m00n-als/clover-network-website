@@ -3,8 +3,9 @@ import Header from '../components/Header';
 import GetStarted from '../components/GetStarted';
 import WhatIf from '../components/WhatIf';
 import Projects from '../components/Projects';
+import Press from '../components/Press';
 import styles from '../styles/Home.module.scss'
-import { PROJECTS } from '../constants';
+import { PROJECTS, ARTICLES } from '../constants';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         <GetStarted />
         <WhatIf />
         <Projects items={PROJECTS} />
+        <Press items={ARTICLES} />
       </main>
     </div>
   )

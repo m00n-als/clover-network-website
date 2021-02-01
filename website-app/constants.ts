@@ -130,6 +130,21 @@ const PROJECTS = [
   },
 ];
 
+const ARTICLES = [
+  {
+    text: 'EVM compatibility to&nbsp;easily deploy Ethereum dApps on&nbsp;Polkadot and create trustless 2-way pegs between ERC20 and DOT-based assets. EVM compatibility to&nbsp;easily deploy Ethereum dApps on&nbsp;Polkadot and create trustless 2-way pegs between ERC20 and DOT-based assets.',
+  },
+  {
+    text: 'EVM compatibility to&nbsp;easily deploy Ethereum dApps on&nbsp;Polkadot and create trustless 2-way pegs between ERC20 and DOT-based assets.',
+  },
+  {
+    text: 'EVM compatibility to&nbsp;easily deploy Ethereum dApps on&nbsp;Polkadot and create trustless 2-way pegs between ERC20 and DOT-based assets.',
+  },
+  {
+    text: 'EVM compatibility to&nbsp;easily deploy Ethereum dApps on&nbsp;Polkadot and create trustless 2-way pegs between ERC20 and DOT-based assets.',
+  },
+]
+
 export {
   HEADER_MENU,
   SOCIAL_ICONS,
@@ -137,4 +152,5 @@ export {
   BLOCKS_ICONS,
   BLOCKS,
   PROJECTS,
+  ARTICLES,
 };
