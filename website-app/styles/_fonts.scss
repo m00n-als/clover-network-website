@@ -50,27 +50,14 @@
 }
 
 @font-face {
-  font-family: 'SpaceMono';
-  src: local('SpaceMono-Bold'),
-  url('/fonts/SpaceMono-Bold.eot?#iefix') format('embedded-opentype'),
-  url('/fonts/SpaceMono-Bold.otf') format('opentype'),
-  url('/fonts/SpaceMono-Bold.ttf') format('truetype'),
-  url('/fonts/SpaceMono-Bold.woff') format('woff'),
-  url('/fonts/SpaceMono-Bold.svg') format('svg');
+  font-family: 'IBMPlexMono';
+  src: local('IBMPlexMono-Medium'),
+  url('/fonts/IBMPlexMono-Medium.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/IBMPlexMono-Medium.otf') format('opentype'),
+  url('/fonts/IBMPlexMono-Medium.ttf') format('truetype'),
+  url('/fonts/IBMPlexMono-Medium.woff') format('woff'),
+  url('/fonts/IBMPlexMono-Medium.svg') format('svg');
   font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'SpaceMono';
-  src: local('SpaceMono-Regular'),
-  url('/fonts/SpaceMono-Mediun.eot?#iefix') format('embedded-opentype'),
-  url('/fonts/SpaceMono-Mediun.otf') format('opentype'),
-  url('/fonts/SpaceMono-Mediun.ttf') format('truetype'),
-  url('/fonts/SpaceMono-Mediun.woff') format('woff'),
-  url('/fonts/SpaceMono-Mediun.svg') format('svg');
-  font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-display: swap;
 }
