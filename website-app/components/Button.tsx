@@ -3,7 +3,7 @@ import cn from 'classnames';
 import styles from '../styles/Button.module.scss';
 import Arrow from '../public/arrow.svg';
 
-export const Button = ({
+const Button = ({
   children,
   className,
   href,

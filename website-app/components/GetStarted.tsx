@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './Button';
 import styles from '../styles/GetStarted.module.scss';
 
-export const GetStarted = () => (
+const GetStarted = () => (
   <div className={styles.wrapper}>
     <h1 className={styles.title}>
       Cross-chain DeFi <span className={styles.accent}>Interoperability</span>

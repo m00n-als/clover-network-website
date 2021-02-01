@@ -2,7 +2,7 @@ import React from 'react';
 import cn from 'classnames';
 import styles from '../styles/MenuButton.module.scss';
 
-export const MenuButton = ({
+const MenuButton = ({
   className,
   onClick,
   active = false,

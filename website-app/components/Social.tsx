@@ -7,14 +7,14 @@ import discordIcon from '../public/discordd.svg';
 import mediumIcon from '../public/medium.svg';
 import { SOCIAL_ICONS } from '../constants';
 
-export const iconsMap = {
+const iconsMap = {
   [`${SOCIAL_ICONS.twitter}`]: twitterIcon,
   [`${SOCIAL_ICONS.telegram}`]: telegramIcon,
   [`${SOCIAL_ICONS.discord}`]: discordIcon,
   [`${SOCIAL_ICONS.medium}`]: mediumIcon,
 };
 
-export const Social = ({
+const Social = ({
   className,
   items = [],
 }: {
@@ -40,11 +40,14 @@ export const Social = ({
       );
     })
   ), [items]);
-  return data.length ? (
-    <div className={cn(styles.social, className)}>
-      <ul className={styles.list}>{data}</ul>
-    </div>
-  ) : null;
+  if (data.length) {
+    return (
+      <div className={cn(styles.social, className)}>
+        <ul className={styles.list}>{data}</ul>
+      </div>
+    );
+  }
+  return null;
 };
 
 export default Social;

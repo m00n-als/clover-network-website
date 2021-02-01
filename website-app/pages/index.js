@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header';
 import GetStarted from '../components/GetStarted';
+import WhatIf from '../components/WhatIf';
 import styles from '../styles/Home.module.scss'
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Header />
       <main className={styles.main}>
         <GetStarted />
+        <WhatIf />
       </main>
     </div>
   )

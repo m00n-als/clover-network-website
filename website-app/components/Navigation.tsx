@@ -4,7 +4,7 @@ import Social from './Social';
 import styles from '../styles/Navigation.module.scss';
 import { SOCIALS } from '../constants';
 
-export const Navigation = ({
+const Navigation = ({
   className,
   items = [],
   active = false,
@@ -45,7 +45,7 @@ export const Navigation = ({
         />
       </div>
       <div className={styles.footer}>
-        &copy;2020&nbsp;CloverProject. All Rights Reserved.
+        &copy;2021&nbsp;CloverProject. All Rights Reserved.
       </div>
     </nav>
   );
