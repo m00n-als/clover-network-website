@@ -1,7 +1,3 @@
-import polkadotIcon from "./public/polkadot.svg";
-import scheduleIcon from "./public/schedule.svg";
-import incomeIcon from "./public/income.svg";
-
 const HEADER_MENU = [
   {
     link: 'https://github.com/clover-network/',
@@ -71,10 +67,74 @@ const BLOCKS = [
   },
 ];
 
+const PROJECTS = [
+  {
+    image: '/linch.png',
+    width: 141,
+    height: 70,
+    title: 'Linch Exchange',
+  },
+  {
+    image: '/barnbridge.png',
+    width: 200,
+    height: 34,
+    title: 'Barnridge',
+  },
+  {
+    image: '/litentry.png',
+    width: 172,
+    height: 58,
+    title: 'Litentry',
+  },
+  {
+    image: '/dodo.png',
+    width: 134,
+    height: 31,
+    title: 'DODO',
+  },
+  {
+    image: '/boring.png',
+    width: 178,
+    height: 54,
+    title: 'BoringDAO',
+  },
+  {
+    image: '/mathWallet.png',
+    width: 211,
+    height: 58,
+    title: 'Math Wallet',
+  },
+  {
+    image: '/dydx.png',
+    width: 91,
+    height: 50,
+    title: 'dy/dx',
+  },
+  {
+    image: '/injective.png',
+    width: 155,
+    height: 47,
+    title: 'Injective Protocol',
+  },
+  {
+    image: '/opium.png',
+    width: 135,
+    height: 32,
+    title: 'Opium',
+  },
+  {
+    image: '/wbtc.png',
+    width: 117,
+    height: 35,
+    title: 'WBTC',
+  },
+];
+
 export {
   HEADER_MENU,
   SOCIAL_ICONS,
   SOCIALS,
   BLOCKS_ICONS,
   BLOCKS,
+  PROJECTS,
 };

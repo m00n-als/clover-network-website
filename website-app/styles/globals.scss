@@ -13,6 +13,10 @@ body {
   line-height: 1.5;
   color: $color-text;
   background-color: #FFF;
+
+  @media (min-width: $media-lg) {
+    font-size: 16px;
+  }
 }
 
 ul,

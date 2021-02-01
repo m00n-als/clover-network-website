@@ -20,10 +20,6 @@
   *, *::after, *::before {
     box-sizing: border-box;
   }
-
-  @media (min-width: $media-lg) {
-    font-size: 16px;
-  }
 }
 
 .main {
