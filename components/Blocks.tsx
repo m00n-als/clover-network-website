@@ -2,10 +2,10 @@ import React, { useMemo } from 'react';
 import cn from 'classnames';
 import styles from '../styles/Blocks.module.scss';
 import { BLOCKS_ICONS } from '../constants';
-import polkadotIcon from "../public/polkadot.svg";
-import scheduleIcon from "../public/schedule.svg";
-import incomeIcon from "../public/income.svg";
-import noFeeIcon from "../public/noFee.svg";
+import polkadotIcon from '../public/svg/polkadot.svg';
+import scheduleIcon from '../public/svg/schedule.svg';
+import incomeIcon from '../public/svg/income.svg';
+import noFeeIcon from '../public/svg/noFee.svg';
 
 const iconsMap = {
   [`${BLOCKS_ICONS.polkadot}`]: polkadotIcon,

@@ -1,6 +1,5 @@
 import React, { useMemo } from 'react';
 import cn from 'classnames';
-import Image from 'next/image'
 import styles from '../styles/Projects.module.scss';
 
 const Projects = ({
@@ -19,7 +18,7 @@ const Projects = ({
     items?.map(({ image, width, height, title}) => (
       <li key={title} className={styles.item}>
         <div className={styles.image}>
-          <Image
+          <img
             src={image}
             alt={title}
             width={width}

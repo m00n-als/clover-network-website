@@ -8,6 +8,12 @@ import Footer from '../components/Footer';
 import styles from '../styles/Home.module.scss'
 import { PROJECTS, ARTICLES } from '../constants';
 
+export async function getStaticProps() {
+  return {
+    props: {},
+  }
+}
+
 const Home = () => {
   return (
     <div className={styles.wrapper}>

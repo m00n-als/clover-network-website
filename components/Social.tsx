@@ -1,10 +1,10 @@
 import React, { useMemo } from 'react';
 import cn from 'classnames';
 import styles from '../styles/Social.module.scss';
-import twitterIcon from '../public/twitter.svg';
-import telegramIcon from '../public/telegram.svg';
-import discordIcon from '../public/discordd.svg';
-import mediumIcon from '../public/medium.svg';
+import twitterIcon from '../public/svg/twitter.svg';
+import telegramIcon from '../public/svg/telegram.svg';
+import discordIcon from '../public/svg/wechat.svg';
+import mediumIcon from '../public/svg/medium.svg';
 import { SOCIAL_ICONS } from '../constants';
 
 const iconsMap = {
