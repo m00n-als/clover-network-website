@@ -4,6 +4,7 @@ import GetStarted from '../components/GetStarted';
 import WhatIf from '../components/WhatIf';
 import Projects from '../components/Projects';
 import Press from '../components/Press';
+import Footer from '../components/Footer';
 import styles from '../styles/Home.module.scss'
 import { PROJECTS, ARTICLES } from '../constants';
 
@@ -21,6 +22,7 @@ const Home = () => {
         <Projects items={PROJECTS} />
         <Press items={ARTICLES} />
       </main>
+      <Footer />
     </div>
   )
 };
