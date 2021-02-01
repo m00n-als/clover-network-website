@@ -12,7 +12,9 @@ const Header = () => {
     <header className={styles.wrapper}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          <Logo className={styles.logoImage} />
+          <i className={styles.logoImage}>
+            <Logo />
+          </i>
           <div className={styles.logoText}>
             clover
           </div>

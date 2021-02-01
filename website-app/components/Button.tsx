@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { MouseEventHandler } from 'react';
 import cn from 'classnames';
 import styles from '../styles/Button.module.scss';
 import Arrow from '../public/arrow.svg';
@@ -17,7 +17,7 @@ const Button = ({
   href?: string;
   disabled?: boolean;
   id?: string;
-  onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  onClick?: MouseEventHandler<HTMLButtonElement | HTMLAnchorElement>;
 }) => {
   const Component = href ? 'a' : 'button';
   return (
@@ -29,7 +29,9 @@ const Button = ({
       {...restProps}
     >
       {children}
-      <Arrow className={styles.icon} />
+      <i className={styles.icon}>
+        <Arrow />
+      </i>
     </Component>
   );
 };
